@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Sistema Escola</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+
+
+  </head>
+
+ <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Sistema Escola</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-2 sidebar">
+              <ul class="nav nav-sidebar">
+                <li><a href="index.html">Tela Inicial</a></li>
+                <li class="active"><a href="aluno.html">Aluno</a></li>
+                <li><a href="chamada.html">Chamada</a></li>
+              </ul>  
+            </div>
+          </div>
+        </div>  
+
+
+        <div class="col-md-10 col-md-offset-2 main">
+          <h2 class="sub-header">Cadastro de Alunos</h2>
+
+          <form class="form-horizontal" action="confirmacao.html" method="post">
+
+            <div class="form-group">
+                <label for="matricula" class="col-sm-2 control-label">Matrícula</label>
+                    <div class="col-md-2">
+                        <input type="text" name="matricula" class="form-control" id="matricula" placeholder="xx.x.xxxx">
+                    </div>
+            </div>
+
+            <div class="form-group ">
+              <div class="dropdown ">
+                <button class="btn btn-default dropdown-toggle" type="button" id="curso" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Curso
+                  <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="curso">
+                  <li><a value="1">Sistemas de Informação</a></li>
+                  <li><a value="2">Engenharia de Computação</a></li>
+                  <li><a value="3">Engenharia Elétrica</a></li>
+                  <li><a value="4">Engenharia de Produção</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cpf" class="col-sm-2 control-label">CPF</label>
+              <div class="col-md-2">
+                <input type="text" name="cpf" class="form-control" id="cpf" placeholder="xxx.xxx.xxx-xx">
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="nome" class="col-sm-2 control-label">Nome</label>
+              <div class="col-md-8">
+                <input type="text" name="nome" class="form-control" id="nome" placeholder="João da Silva Sauro">
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">E-mail</label>
+              <div class="col-md-8">
+                <input type="email" name="email" class="form-control" id="email" placeholder="renato@ufop.icea.br">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Cadastrar</button>
+                   <button type="reset" class="btn btn-default">Limpar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+Oi Renato,
+
+A atividade consiste na construção de 4 páginas e a transição entre elas:
+
+- Uma página representando um menu principal de sistema;
+- Um formulário para cadastro de alunos com os dados principais;
+- Uma página solicitando a confirmação dos dados;
+- A última página representa uma lista de presença/chamada com dados dos alunos;
+
+As páginas são estáticas e indicam apenas a transição entre elas. A primeira atividade (HTML+CSS) é a construção dessas páginas com CSS personalizado para você. A segunda atividade (HTML+Bootstrap) consiste na aplicação do Bootstrap nessas páginas.
+
+Qualquer coisa me avise.
+
+Abraços,
